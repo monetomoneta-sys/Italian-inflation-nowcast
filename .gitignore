@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Runtime data and browser sessions
+data/
+reports/
+browser_profile/
+*.sqlite3
+*.db
+
+# Secrets and local configuration
+.env
+.env.*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

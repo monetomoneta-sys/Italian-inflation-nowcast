@@ -1,0 +1,53 @@
+cap: "20141"
+retailer: "esselunga"
+weight_system:
+  index: "HICP"
+  geography: "Italy"
+  year: 2026
+  classification: "ECOICOP v2"
+  note: "I pesi grezzi rappresentano la struttura relativa di spesa delle otto classi coperte e vengono normalizzati automaticamente al 100%."
+# Relative expenditure weights for the eight covered food classes.
+# The calculation code rescales available categories so their weights sum to 1.
+category_weights:
+  cereali_pane: 27.5
+  carne: 32.5
+  pesce: 12.0
+  latte_formaggi_uova: 23.0
+  oli_grassi: 6.0
+  frutta: 15.0
+  verdura: 18.0
+  zucchero_dolciumi: 12.0
+category_metadata:
+  cereali_pane:
+    ecoicop_code: "01.1.1"
+    ecoicop_label: "Cereali e prodotti a base di cereali"
+  carne:
+    ecoicop_code: "01.1.2"
+    ecoicop_label: "Carne"
+  pesce:
+    ecoicop_code: "01.1.3"
+    ecoicop_label: "Pesce e altri prodotti ittici"
+  latte_formaggi_uova:
+    ecoicop_code: "01.1.4"
+    ecoicop_label: "Latte, altri prodotti lattiero-caseari e uova"
+  oli_grassi:
+    ecoicop_code: "01.1.5"
+    ecoicop_label: "Oli e grassi"
+  frutta:
+    ecoicop_code: "01.1.6"
+    ecoicop_label: "Frutta e frutta a guscio"
+  verdura:
+    ecoicop_code: "01.1.7"
+    ecoicop_label: "Verdura, tuberi e legumi"
+  zucchero_dolciumi:
+    ecoicop_code: "01.1.8"
+    ecoicop_label: "Zucchero, prodotti dolciari e dessert"
+categories:
+  cereali_pane: "https://spesaonline.esselunga.it/commerce/nav/supermercato/store/menu/300000001002050/pane-e-sostitutivi"
+  carne: "https://spesaonline.esselunga.it/commerce/nav/supermercato/store/menu/300000001002007/carne"
+  pesce: "https://spesaonline.esselunga.it/commerce/nav/supermercato/store/menu/300000001002027/pesce-e-sushi"
+  latte_formaggi_uova: "https://spesaonline.esselunga.it/commerce/nav/supermercato/store/menu/600000001047248/latte-yogurt-e-uova"
+  oli_grassi: "https://spesaonline.esselunga.it/commerce/nav/supermercato/store/menu/300000001002513/olio-extra-vergine"
+  frutta: "https://spesaonline.esselunga.it/commerce/nav/supermercato/store/menu/600000001047175/frutta"
+  verdura: "https://spesaonline.esselunga.it/commerce/nav/supermercato/store/menu/600000001047177/verdura"
+  zucchero_dolciumi: "https://spesaonline.esselunga.it/commerce/nav/supermercato/store/menu/300000001019692/patatine-e-dolciumi"
